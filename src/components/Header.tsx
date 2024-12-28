@@ -102,7 +102,7 @@ const Header = () => {
             </SheetTrigger>
             <SheetContent>
               <SheetHeader>
-                <SheetTitle className="font-bold my-4">MK Tech Blog's</SheetTitle>
+                <SheetTitle className="font-bold my-4">MK Tech Blog&apos;s</SheetTitle>
                 <div className="flex flex-col gap-6">
                   <Link href="/">Home</Link>
                   <Link href="/about">About</Link>
