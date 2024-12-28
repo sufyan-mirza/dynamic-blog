@@ -47,7 +47,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         <Link href={"/"} className="flex items-center space-x-2">
           <Image src={"/logoooo.png"} alt="logo" width={50} height={20} />
-          <span className="text-lg font-bold">MK Tech Blog's</span>
+          <span className="text-lg font-bold">MK Tech Blog&apos;s</span>
         </Link>
         <div className="hidden md:flex space-x-5 items-center">
           <Link

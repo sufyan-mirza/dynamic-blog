@@ -11,7 +11,7 @@ const Footer = () => {
           className="flex items-center space-x-2  title-font font-medium text-gray-900 dark:text-white mb-5 sm:mb-0"
         >
           <Image src="/logoooo.png" alt="logo" width={50} height={20} />
-          <span className="text-xl">MK Tech Blog's</span>
+          <span className="text-xl">MK Tech Blog&apos;s</span>
         </Link>
         <p className="text-md text-gray-500 dark:text-gray-400 mb-4 sm:mb-0">
           © All rights reserved | 2024 | Mohib Ali Khan

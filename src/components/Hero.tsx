@@ -15,7 +15,7 @@ const Hero = () => {
           <p className="mb-8 text-lg leading-relaxed">
             Dive into a world of technology, insightful articles, and
             engaging ideas.Explore fields that spark curiosity and fuel
-            creativity.Join us in the journey of learning and inspiration.let’s embark on a journey to understand the complexities of computer fields and discover how they impact our world!
+            creativity.Join us in the journey of learning and inspiration.let&apos;s embark on a journey to understand the complexities of computer fields and discover how they impact our world!
             
           </p>
           <div className="flex justify-center">
