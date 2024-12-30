@@ -12,14 +12,14 @@ const About = () => {
               About Us !
             </h1>
             <p className="text-lg text-gray-600 dark:text-gray-400">
-            Welcome to Mohib Blogs, your go-to platform for exploring the ever-evolving landscape of technology. In an age where innovation drives progress, I am dedicated to sharing insightful articles that delve into the latest trends and developments in the realms of Data Science, Information Technology, Machine Learning and beyond. My goal is to provide you with comprehensive insights that empower you to harness these technologies effectively. Whether you are a seasoned professional, a student, or simply a tech enthusiast, there is something here for everyone.
+            Welcome to SM Blog, a place where natures wonders come to life through the beauty of trees. Our mission is simple: to celebrate the incredible diversity, importance, and stories of trees from around the world.
             </p>
           </div>
 
           <div className="flex justify-center mb-10">
             <div className="w-48 h-48 relative rounded-full overflow-hidden">
               <Image
-                src="/mypiccc.jpeg"
+                src="/face.jpg"
                 alt="Author"
                 layout="fill"
                 objectFit="cover"
@@ -30,13 +30,10 @@ const About = () => {
 
           <div className="text-center mb-16">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
-              Hi, I&apos;m Mohib Ali Khan
+              Hi, I&apos;m Sufyan Mirza
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-              I&apos;m a web developer with a passion for creating accessible
-              and user-friendly applications. I specialize in TypeScript, React,
-              and modern web frameworks like Next.js. I write blogs to help
-              others learn and grow in the world of Technology.I have a versatile skill set that can be applied to a wide range of data-related tasks. A budding Data enthusiast diving into the fascinating world of Web 3.0 and Agentic AI
+            Hi there! Im Sufyan Mirza, the creator behind SM Blog. Ive always been fascinated by the natural world, and trees, in particular, have captured my heart. From the tallest redwoods to the most delicate saplings, Im constantly amazed by the beauty and significance of these incredible living beings.
             </p>
           </div>
 
@@ -50,8 +47,8 @@ const About = () => {
             </p>
             <div className="flex justify-center space-x-6">
               <a
-                href="https://www.linkedin.com/in/mohib-ali-khan-64518a260/"
-                className="text-gray-500 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400"
+                href="https://www.linkedin.com/in/sufyan-mirza-1119182bb/"
+                className="text-gray-500 dark:text-gray-400 hover:text-indigo-500"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -59,15 +56,15 @@ const About = () => {
               </a>
 
               <a
-            href="https://www.facebook.com/mohibali.khan.52/"
-            className="text-gray-500 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400"
+            href="https://www.facebook.com/sufyan.king.169067"
+            className="text-gray-500 dark:text-gray-400 hover:text-indigo-500"
           >
             <FaFacebook size={30} />
              </a>
 
               <a
-                href="https://github.com/"
-                className="text-gray-500 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400"
+                href="/"
+                className="text-gray-500 dark:text-gray-400 hover:text-indigo-500"
                 target="_blank"
                 rel="noopener noreferrer"
               >

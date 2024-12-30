@@ -5,7 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Header from "@/components/Header";
 
 export const metadata: Metadata = {
-  title: "MK Blog's",
+  title: "SM Blog's",
   description:
     "Explore blogs on TypeScript, Next.js, and Shadcn and many more topics to enhance your web development skills.",
 };

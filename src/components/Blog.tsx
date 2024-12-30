@@ -4,28 +4,28 @@ import Image from "next/image";
 const Blog = () => {
   const blogs = [
     {
-      title: "Bridging Creativity and Logic",
-      category: "Software Engineering",
+      title: "Deciduous Trees",
+      category: "Trees",
       description:
-        "Software engineering is the discipline of designing, developing, and maintaining software applications using systematic methodologies.",
-      image: "/software.jpg",
-      link: "/blogpost/Software",
+        "Trees that shed their leaves annually in the fall.",
+      image: "/decidous.webp",
+      link: "/blogpost/Decidous",
     },
     {
-      title: "Power of Data Science",
-      category: "Data Science",
+      title: "Coniferous Trees (Evergreens)",
+      category: "Trees",
       description:
-        "Data science is the interdisciplinary field that utilizes statistical analysis, machine learning, and data visualization to extract insights from complex datasets.",
-      image: "/datascience.jpg",
-      link: "/blogpost/Data",
+        "Trees that remain green year-round and have needle-like leaves.",
+      image: "/coniferous.webp",
+      link: "/blogpost/Coniferous",
     },
     {
-      title: "The Future of Innovation and Automation",
-      category: "Artificial Intelligence",
+      title: "Tropical Trees",
+      category: "Trees",
       description:
-        "Artificial intelligence (AI) involves creating systems that can perform tasks requiring human-like intelligence, such as learning, reasoning, and problem-solving.",
-      image: "/artificial.jpg",
-      link: "/blogpost/Ai",
+        " Trees found in tropical climates with high humidity and rainfall.",
+      image: "/tropical.webp",
+      link: "/blogpost/Tropical",
     },
   ];
 
@@ -57,7 +57,7 @@ const Blog = () => {
                     <div className="flex items-center flex-wrap">
                       <a
                         href={blog.link}
-                        className="text-indigo-500 dark:text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0"
+                        className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
                       >
                         Learn More
                         <svg
@@ -82,7 +82,7 @@ const Blog = () => {
           <div className="flex justify-center mt-8">
             <a
               href="/blog"
-              className="bg-indigo-500 dark:bg-indigo-600 text-white px-6 py-2 rounded-lg text-lg hover:bg-indigo-600 dark:hover:bg-indigo-700 transition"
+              className="bg-blue-500 text-white px-6 py-2 rounded-lg text-lg hover:bg-indigo-600 dark:hover:bg-indigo-700 transition"
             >
               Explore More Blogs
             </a>

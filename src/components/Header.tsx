@@ -9,7 +9,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 
-import { ModeToggle } from "@/components/theme-button";
+
 import LoadingBar from "react-top-loading-bar";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -46,8 +46,8 @@ const Header = () => {
       />
       <div className="container mx-auto flex justify-between items-center">
         <Link href={"/"} className="flex items-center space-x-2">
-          <Image src={"/logoooo.png"} alt="logo" width={50} height={20} />
-          <span className="text-lg font-bold">MK Tech Blog&apos;s</span>
+          <Image src={"/logosufyan.png"} alt="logo" width={50} height={20} />
+          <span className="text-lg font-bold">SM Blog&apos;s</span>
         </Link>
         <div className="hidden md:flex space-x-5 items-center">
           <Link
@@ -74,15 +74,11 @@ const Header = () => {
           >
             Contact
           </Link>
-          <div className="flex items-center">
-            <ModeToggle />
-          </div>
+          
         </div>
 
         <div className="md:hidden">
-          <span className="mx-2">
-            <ModeToggle />
-          </span>
+          
           <Sheet>
             <SheetTrigger>
               <svg
@@ -102,7 +98,7 @@ const Header = () => {
             </SheetTrigger>
             <SheetContent>
               <SheetHeader>
-                <SheetTitle className="font-bold my-4">MK Tech Blog&apos;s</SheetTitle>
+                <SheetTitle className="font-bold my-4">SM Blog&apos;s</SheetTitle>
                 <div className="flex flex-col gap-6">
                   <Link href="/">Home</Link>
                   <Link href="/about">About</Link>

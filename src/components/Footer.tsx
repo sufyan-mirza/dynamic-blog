@@ -10,29 +10,29 @@ const Footer = () => {
           href="/"
           className="flex items-center space-x-2  title-font font-medium text-gray-900 dark:text-white mb-5 sm:mb-0"
         >
-          <Image src="/logoooo.png" alt="logo" width={50} height={20} />
-          <span className="text-xl">MK Tech Blog&apos;s</span>
+          <Image src="/logosufyan.png" alt="logo" width={50} height={20} />
+          <span className="text-xl">SM Blog&apos;s</span>
         </Link>
         <p className="text-md text-gray-500 dark:text-gray-400 mb-4 sm:mb-0">
-          © All rights reserved | 2024 | Mohib Ali Khan
+          © All rights reserved | 2024 | Sufyan Mirza
         </p>
         <div className="flex space-x-4">
           <Link
-            href="https://www.linkedin.com/in/mohib-ali-khan-64518a260/"
+            href="https://www.linkedin.com/in/sufyan-mirza-1119182bb/"
             className="text-gray-500 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400"
           >
             <FaLinkedin size={27} />
           </Link>
 
           <Link
-            href="https://www.facebook.com/mohibali.khan.52/"
+            href="https://www.facebook.com/sufyan.king.169067"
             className="text-gray-500 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400"
           >
             <FaFacebook size={27} />
           </Link>
 
           <Link
-            href="https://github.com/"
+            href="/"
             className="text-gray-500 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400"
           >
             <FaGithub size={27} />

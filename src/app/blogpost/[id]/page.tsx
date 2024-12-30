@@ -14,11 +14,11 @@ interface Comment {
 
 export default function BlogPost({ params }: Props) {
   const defaultComments: Comment[] = [
-    { username: "Waqar", message: "Great! Very informative." },
-    { username: "Aleena", message: "Outstanding blog" },
+    { username: "Ahmed", message: "Today I gain many Knowledge regarding trees." },
+    { username: "Arfa", message: "Need more blogs like this" },
     {
-      username: "Ali",
-      message: "Looking forward to more articles like this.",
+      username: "Iftikhar",
+      message: "very impressive knowledge",
     },
   ];
 
@@ -72,28 +72,28 @@ export default function BlogPost({ params }: Props) {
   };
 
   return (
-    <div className="max-w-7xl mx-auto p-6 dark:text-white">
+    <div className="max-w-7xl mx-auto p-6">
       <h1 className="text-4xl font-bold text-center mb-8">{blog.title}</h1>
-      <div className="bg-gray-200 p-6 rounded-lg shadow-lg dark:bg-gray-900 dark:text-gray-300">
-        <h2 className="text-4xl font-bold text-gray-900 dark:text-white">
+      <div className="bg-white p-6 rounded-lg shadow-lg">
+        <h2 className="text-4xl font-bold text-gray-900">
           Introduction:
         </h2>
-        <p className="text-gray-700 dark:text-gray-400 mt-2">{blog.intro}</p>
-        <h3 className="text-4xl font-semibold text-gray-800 dark:text-gray-300 mt-4 mb-4">
+        <p className="text-gray-700 mt-2">{blog.intro}</p>
+        <h3 className="text-4xl font-semibold text-gray-800 mt-4 mb-4">
           Advantages:
         </h3>
-        <ul className="list-disc ml-6  dark:text-gray-400">
+        <ul className="list-disc ml-6  ">
           {blog.advantages.map((advantage, index) => (
             <li key={index}>{advantage}</li>
           ))}
         </ul>
-        <h3 className="text-4xl font-semibold text-gray-800 dark:text-gray-300 mt-4">
+        <h3 className="text-4xl font-semibold text-gray-800">
           Pre-Requisite:
         </h3>
-        <p className="text-gray-700 dark:text-gray-400 mt-2">{blog.prereq}</p>
+        <p className="text-gray-700 mt-2">{blog.prereq}</p>
         
       </div>
-      <div className="mt-8 bg-gray-200 p-6 rounded-lg shadow-lg dark:bg-gray-900 dark:text-gray-300">
+      <div className="mt-8 bg-white p-6 rounded-lg shadow-lg dark:bg-gray-900 dark:text-gray-300">
         <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
           Comments
         </h3>
@@ -101,7 +101,7 @@ export default function BlogPost({ params }: Props) {
           {comments.map((comment, index) => (
             <div
               key={index}
-              className="p-4 bg-gray-100 rounded-lg dark:bg-gray-800 dark:text-gray-100"
+              className="p-4 bg-gray-100 rounded-lg dark:bg-gray-800"
             >
               <p className="font-semibold">{comment.username}</p>
               <p>{comment.message}</p>
@@ -110,7 +110,7 @@ export default function BlogPost({ params }: Props) {
         </div>
         <form
           onSubmit={handleCommentSubmit}
-          className="mt-6 bg-gray-100 p-4 rounded-lg dark:bg-gray-800 dark:text-gray-100"
+          className="mt-6 bg-gray-100 p-4 rounded-lg"
         >
           <div className="mb-4">
             <label htmlFor="username" className="block text-sm font-medium">
@@ -123,7 +123,7 @@ export default function BlogPost({ params }: Props) {
               value={formValues.username}
               onChange={handleInputChange}
               required
-              className="mt-2 w-full p-2 border border-gray-300 rounded-lg dark:bg-gray-800 dark:text-white dark:border-gray-600"
+              className="mt-2 w-full p-2 border border-gray-300 rounded-lg"
             />
           </div>
           <div className="mb-4">
@@ -137,12 +137,12 @@ export default function BlogPost({ params }: Props) {
               onChange={handleInputChange}
               required
               rows={4}
-              className="mt-2 w-full p-2 border border-gray-300 rounded-lg dark:bg-gray-800 dark:text-white dark:border-gray-600"
+              className="mt-2 w-full p-2 border border-gray-300 rounded-lg"
             ></textarea>
           </div>
           <button
             type="submit"
-            className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 dark:bg-blue-800 dark:hover:bg-blue-700"
+            className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
           >
             Post Comment
           </button>
