@@ -93,15 +93,15 @@ export default function BlogPost({ params }: Props) {
         <p className="text-gray-700 mt-2">{blog.prereq}</p>
         
       </div>
-      <div className="mt-8 bg-white p-6 rounded-lg shadow-lg dark:bg-gray-900 dark:text-gray-300">
-        <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
+      <div className="mt-8 bg-white p-6 rounded-lg shadow-lg ">
+        <h3 className="text-2xl font-semibold text-gray-900 ">
           Comments
         </h3>
         <div className="space-y-4 mt-4">
           {comments.map((comment, index) => (
             <div
               key={index}
-              className="p-4 bg-gray-100 rounded-lg dark:bg-gray-800"
+              className="p-4 bg-gray-100 rounded-lg "
             >
               <p className="font-semibold">{comment.username}</p>
               <p>{comment.message}</p>
