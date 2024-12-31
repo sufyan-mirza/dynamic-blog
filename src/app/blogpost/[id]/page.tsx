@@ -123,7 +123,7 @@ export default function BlogPost({ params }: Props) {
               value={formValues.username}
               onChange={handleInputChange}
               required
-              className="mt-2 w-full p-2 border border-gray-300 rounded-lg"
+              className="mt-2 w-full p-2 border border-gray-300 bg-white rounded-lg"
             />
           </div>
           <div className="mb-4">
@@ -137,7 +137,7 @@ export default function BlogPost({ params }: Props) {
               onChange={handleInputChange}
               required
               rows={4}
-              className="mt-2 w-full p-2 border border-gray-300 rounded-lg"
+              className="mt-2 w-full p-2 border border-gray-300 bg-white rounded-lg"
             ></textarea>
           </div>
           <button
